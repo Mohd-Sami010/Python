@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnallite Games - Carnallite Team</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 100px 0;
+            background: url('team-bg.jpg') no-repeat center center/cover;
+            color: #ffffff;
+        }
+        header h1 {
+            font-size: 4em;
+            margin: 0;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        nav {
+            background-color: #1a1a1a;
+            padding: 15px 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #f39c12;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px 0;
+        }
+        section {
+            margin: 40px 0;
+            padding: 30px;
+            border-radius: 8px;
+            background-color: #1e1e1e;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        section h2 {
+            border-bottom: 2px solid #f39c12;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 2em;
+            font-weight: 700;
+        }
+        .team-member {
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #1a1a1a;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+            nav a {
+                font-size: 1em;
+                margin: 0 10px;
+            }
+            .container {
+                width: 90%;
+            }
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Carnallite Team</h1>
+    </header>
+    <nav>
+        <a href="webpage.html" aria-label="Home">Home</a>
+        <a href="webpage.html#about" aria-label="About Us">About</a>
+        <a href="webpage.html#projects" aria-label="Our Projects">Projects</a>
+       <!-- <a href="team page.html" aria-label="Our Team">Carnallite Team</a> -->
+        <a href="webpage.html#contact" aria-label="Contact Us">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="team">
+            <h2>Meet the Team</h2>
+            <div class="team-member">
+                <h3>Mohd Sami</h3>
+                <p>Founder and Lead Developer. Mohd Sami has a passion for creating immersive game experiences and has been in the industry for over 10 years.</p>
+            </div>
+            <!-- Add more team members here -->
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Carnallite Games. All rights reserved.</p>
+    </footer>
+</body>
+</html>
