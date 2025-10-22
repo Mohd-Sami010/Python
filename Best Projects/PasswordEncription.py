@@ -1,3 +1,7 @@
+# Every Time diffrent encryption, even for the same word
+# Github.com --> [1H;01j;02v;06n;04y;01c;075;05h;04s;08u;0]
+# Github.com --> [6M;04m;02v;08p;06{;05g;053;07j;09x;05r;0]
+
 import random
 
 SEPRATOR = ";0"
