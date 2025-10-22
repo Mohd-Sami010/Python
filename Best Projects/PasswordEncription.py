@@ -7,7 +7,11 @@ def Encrypt(textToEncrypt):
     encryptedText = ""
     for c in textToEncrypt:
         numberToAdd = random.randint(0, 9)
-        newChar = f"{numberToAdd}" + chr(ord(c) + numberToAdd) + SEPRATOR
+        newChar = f"{numberToAdd}" + chr(ord(c) + numberToAdd)
+        while "0" in newChar or ";" in newChar:
+            numberToAdd = random.randint(0, 9)
+            newChar = f"{numberToAdd}" + chr(ord(c) + numberToAdd)
+        newChar += SEPRATOR
         encryptedText += newChar
     return "[" + encryptedText + "]"
 
