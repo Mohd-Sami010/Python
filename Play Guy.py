@@ -30,7 +30,7 @@ def cl():
 #   Sepration
 def line():
     lo()
-    print(F.LIGHTGREEN_EX+'='*42)
+    print(F.LIGHTGREEN_EX+'='*51)
     cl()
     
 print('\n')

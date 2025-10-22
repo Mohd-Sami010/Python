@@ -16,7 +16,7 @@ while True:
 	name=list[random.randint(0,len(list)-1)]
 
 	#	beginning
-	print('='*42)
+	print('='*51)
 	print(Fore.CYAN+'\n\nThe word has',len(name),'letters in it')
 	n=0
 	for i in name:

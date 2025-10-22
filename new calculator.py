@@ -41,4 +41,4 @@ while True:
           break
     
     else:
-        print("\nchutiye uper ke option me se select kr!")
+        print("\nuper ke option me se select kr!")

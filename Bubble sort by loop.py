@@ -6,6 +6,5 @@ for i in range(n-1):
 		
 		if l[j+1] < l[j]:
 			l[j+1],l[j]=l[j],l[j+1]
-	print(l)
 print()
 print(l)

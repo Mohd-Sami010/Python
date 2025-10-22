@@ -31,7 +31,7 @@ def checking(name,a,num):
 #    game repeating loop
 while True:   
 #    Selection of number
-    print(F.LIGHTMAGENTA_EX+'='*42,'\n\n')
+    print(F.LIGHTMAGENTA_EX+'='*51,'\n\n')
     print(F.GREEN+'GAME  STARTED'.center(35))
     num=rand(0,100)
     print(F.RESET+'')

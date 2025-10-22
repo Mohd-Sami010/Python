@@ -1,6 +1,4 @@
 str=input('Enter any sentance:')
-#new=str.replace('s','h'), str.replace('i','k')
-#print(new)
 
 '''7=t,T
 1=i,I

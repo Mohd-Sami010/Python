@@ -7,7 +7,7 @@ print('''==========================================
 range=int(input(F.LIGHTMAGENTA_EX+'\nEnter range:'))
 
 while True:
-    n=random.randint(1,range)
+	n=random.randint(1,range)
     guess=None
     score=0
     while guess != n:
@@ -35,4 +35,5 @@ while True:
     elif score<=8:
     	print('You played well')
     elif score<=15:
-    	print('You played like noob :⁠-⁠[')
+    	print("You played like noob :⁠-⁠[")
+	
