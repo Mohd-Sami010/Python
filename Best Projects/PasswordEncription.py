@@ -8,6 +8,9 @@ SEPRATOR = ";0"
 
 # Functions
 def Encrypt(textToEncrypt):
+    if len(textToEncrypt) > 20:
+        textToEncrypt = textToEncrypt[0:20]
+        print(f"Too long password, only {textToEncrypt} will be encypted.")
     encryptedText = ""
     for c in textToEncrypt:
         numberToAdd = random.randint(0, 9)
@@ -42,7 +45,7 @@ print("What do you want to do?\n1. Encrypt\n2. Decrypt")
 
 task = input("Enter the option number: ")
 if task == "1":
-    textToEncrypt = input("Enter the text to Encrypt: ")
+    textToEncrypt = input("Enter the text to Encrypt (20 characters or short): ")
     print("Encrypted text:", Encrypt(textToEncrypt))
 elif task == "2":
     textToDecrypt = input("Enter the text to Decrypt: ")
