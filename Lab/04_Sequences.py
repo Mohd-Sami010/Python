@@ -1,5 +1,9 @@
-# Demonstration of Python Built-in Sequence Types
-# list, tuple, string, range, bytes, bytearray
+# 4. Write a Python program to use all six built-in sequence types in Python:
+# list, tuple, string, range, bytes, and bytearray. The program should perform the following operations:
+# A. Create a sequence of each type with sample values.
+# B. Demonstrate indexing by accessing specific elements from each sequence.
+# C. Perform slicing to extract a sub-sequence from each type.
+# D. Modify mutable sequences (list and bytearray) and display the changes.
 
 print("=== A. Creating Sequences ===")
 

@@ -1,3 +1,6 @@
+# 3. WAP to read two integers and use:
+# Assignment, Comparison, Logical and Bitwise operators on them.
+
 num = int(input("ENter a number: "))
 print("Value of num is", num)
 

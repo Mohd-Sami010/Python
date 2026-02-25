@@ -1,3 +1,5 @@
+# 5. WAP to find the number of elements (length) of a list and check if the given list is in Ascending Order or Not.
+
 # list = [2, 3, 45, 7, 8, 9, 10, 1]
 list = [2, 3, 4, 5, 7, 8, 9, 10, 11]
 

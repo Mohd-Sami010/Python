@@ -1,4 +1,7 @@
-# write a prog to take binary & ocatal & Hex and Convert to Decimal
+# a) WAP to take binary, octal and hexadecimal numbers as input from the user
+# and convert them into their equivalent decimal number.
+# b) WAP to take an integer number as input from the user
+# and convert it to its equivalent binary, octal, and hexadecimal string.
 
 # Binary
 bin = input("Enter a binary number: ")
