@@ -1,23 +1,10 @@
-# 3. WAP to read two integers and use:
-# Assignment, Comparison, Logical and Bitwise operators on them.
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 
-num = int(input("ENter a number: "))
-print("Value of num is", num)
+print("Assignment result:", a)
+print("Comparison:", a == b, a > b, a < b)
+print("Logical:", a and b, a or b)
+print("Bitwise:", a & b, a | b, a ^ b)
 
-# Assign
-num= 10
-print("Value of num is", num)
-
-# Deassign
-num = None
-print("Value of num is", num)
-
-# Comparision
-print("Is num None: ", num == None)
-
-# Logical
-print("Is num none and 3 > 1:", num == None and 3>1)
-
-# Bitwise
-num = 3
-print(f"3 bit shifted twice is", num<<2)
+a += 5
+print("After assignment:", a)

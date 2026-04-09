@@ -1,28 +1,20 @@
-# a) WAP to take binary, octal and hexadecimal numbers as input from the user
-# and convert them into their equivalent decimal number.
-# b) WAP to take an integer number as input from the user
-# and convert it to its equivalent binary, octal, and hexadecimal string.
+binary = input("Enter binary: ")
+octal = input("Enter octal: ")
+hexa = input("Enter hexadecimal: ")
 
-# Binary
-binNum = input("Enter a binary number: ")
-print("Dec of", binNum, "is", int(binNum, 2))
+dec1 = int(binary, 2)
+dec2 = int(octal, 8)
+dec3 = int(hexa, 16)
 
-# Octal
-octNum = input("Enter an octal number:")
-print("Dec of", octNum, "is", int(octNum, 8))
+print("Decimal values:", dec1, dec2, dec3)
 
-# Hexadecimal
-hexNum = input("Enter a Hexadecimal number:")
-print("Dec of", hexNum, "is", int(hexNum, 16))
+# Convert decimal to other number systems
+num = int(input("Enter integer: "))
 
+binary = bin(num)
+octal = oct(num)
+hexa = hex(num)
 
-# Int to Other sys
-num = int(input("Enter a number: "))
-
-binNum = bin(num)
-octNum = oct(num)
-hexNum = hex(num)
-
-print(f"The binary value of {num} is {binNum}")
-print(f"The octal value of {num} is {octNum}")
-print(f"The hexadecimal value of {num} is {hexNum}")
+print("Binary:", binary)
+print("Octal:", octal)
+print("Hexadecimal:", hexa)

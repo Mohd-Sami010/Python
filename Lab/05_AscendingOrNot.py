@@ -1,18 +1,9 @@
-# 5. WAP to find the number of elements (length) of a list and check if the given list is in Ascending Order or Not.
+lst = list(map(int, input("Enter elements: ").split()))
 
-# list = [2, 3, 45, 7, 8, 9, 10, 1]
-list = [2, 3, 4, 5, 7, 8, 9, 10, 11]
+length = len(lst)
+print("Length:", length)
 
-print(list)
-print("Length of list is", len(list))
-
-isAscending = True
-for i in range(1, len(list)):
-    if list[i] < list[i-1]:
-        isAscending = False
-        break
-
-if isAscending:
-    print("List is Ascending")
+if lst == sorted(lst):
+    print("List is ascending")
 else:
-    print("List is not in Ascending")
+    print("List is not ascending")

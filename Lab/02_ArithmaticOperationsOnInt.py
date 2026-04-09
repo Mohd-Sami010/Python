@@ -1,9 +1,8 @@
-# 2. WAP to read two integers and perform arithmetic operations on them.
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 
-num1 = int(input("Enter a number: "))
-num2 = int(input("Enter another number: "))
-
-print(f"{num1} + {num2} = {num1+num2}")
-print(f"{num1} - {num2} = {num1-num2}")
-print(f"{num1} * {num2} = {num1*num2}")
-print(f"{num1} / {num2} = {num1/num2}")
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Modulus:", a % b)
