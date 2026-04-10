@@ -1,0 +1,6 @@
+t = tuple(map(int, input("Enter elements: ").split()))
+lst = list(t)
+pos = int(input("Enter position to delete: "))
+lst.pop(pos)
+t = tuple(lst)
+print("Updated tuple:", t)
